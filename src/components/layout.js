@@ -26,7 +26,7 @@ const Layout = ({ location, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
-  let [dark, setDark] = useLocalStorage("dark", false)
+  let [dark, setDark] = useLocalStorage("dark", true)
 
   useEffect(() => {
     // document.body.style.background =

@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section.post h1, h2, h3, h4 {
+    @apply py-2 font-bold;
+}
+
+section.post {
+    h1 {
+        @apply text-3xl;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl ml-5;
+    }
+
+    h4 {
+        @apply text-base ml-10;
+    }
+
+    a {
+        @apply underline;
+    }
+}
